@@ -1,8 +1,6 @@
 view: products {
 
-  ### This is a ccomment #####
-  ### This is another comment ###
-  ### This is yet another comment ####
+  ### Start again ####
   sql_table_name: "PUBLIC"."PRODUCTS"
     ;;
   drill_fields: [id]
