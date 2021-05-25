@@ -2,6 +2,7 @@ connection: "snowlooker"
 
 ########
 ########
+#### This is a comment ####
 
 datagroup: deploy_demo_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
