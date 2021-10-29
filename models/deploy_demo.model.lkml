@@ -4,7 +4,7 @@ connection: "snowlooker"
 
 ########
 ########
-## Release 2.1 ##
+## Release 3.9 ##
 
 
 datagroup: deploy_demo_default_datagroup {
