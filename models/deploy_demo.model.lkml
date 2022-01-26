@@ -4,7 +4,7 @@ connection: "snowlooker"
 
 ########
 ########
-## Release 3.9 ##
+## Release 4.0 ##
 
 
 datagroup: deploy_demo_default_datagroup {
@@ -13,3 +13,8 @@ datagroup: deploy_demo_default_datagroup {
 }
 
 persist_with: deploy_demo_default_datagroup
+
+include: "/models/order_items.view.lkml"
+explore: order_items {
+  group_label: "Deploy Demo"
+}
