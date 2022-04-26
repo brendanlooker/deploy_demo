@@ -3,6 +3,9 @@ view: distribution_centers {
     ;;
   drill_fields: [id]
 
+
+
+
   dimension: id {
     primary_key: yes
     type: number
