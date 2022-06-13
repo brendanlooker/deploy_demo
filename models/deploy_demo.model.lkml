@@ -1,7 +1,6 @@
 connection: "lookerplus"
 
 ####
-
 ########
 ########
 ## Release 8.0 ##
