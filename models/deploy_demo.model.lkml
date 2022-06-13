@@ -1,10 +1,10 @@
-connection: "snowlooker"
+connection: "lookerplus"
 
 ####
 
 ########
 ########
-## Release 5.0 ##
+## Release 6.0 ##
 
 
 datagroup: deploy_demo_default_datagroup {
