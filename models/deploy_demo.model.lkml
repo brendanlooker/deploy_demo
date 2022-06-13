@@ -1,9 +1,10 @@
-connection: "snowlooker"
+connection: "lookerplus"
 
 ####
 ########
 ########
-#### This is a comment ####
+## Release 6.0 ##
+
 
 datagroup: deploy_demo_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
@@ -11,3 +12,8 @@ datagroup: deploy_demo_default_datagroup {
 }
 
 persist_with: deploy_demo_default_datagroup
+
+include: "/models/order_items.view.lkml"
+explore: order_items {
+  group_label: "Deploy Demo"
+}
