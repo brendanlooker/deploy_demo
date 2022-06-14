@@ -3,7 +3,7 @@ connection: "lookerplus"
 ####
 ########
 ########
-## Release 15.0 ##
+## Release 16.0 ##
 
 
 datagroup: deploy_demo_default_datagroup {
