@@ -2,7 +2,7 @@ connection: "lookerplus"
 
 
 ########
-## Release 23.0 ##
+## Release 24.0 ##
 
 datagroup: deploy_demo_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
