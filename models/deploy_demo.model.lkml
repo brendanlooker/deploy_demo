@@ -1,7 +1,6 @@
 connection: "lookerplus"
 
-####
-########
+
 ########
 ## Release 16.0 ##
 
